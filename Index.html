@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .box {
-            width: 200px;
-            height: 300px;
-            background-color: #faebd7;
-            border: 2px dotted;
-        }
-    </style>
+  <link rel="stylesheet" href="style.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
-    <h1>Odin recipes</h1>
-    <ul>
-<li><div class = "box"> 
-    <img   src="./recipes/lasagna/images.jpeg" alt="a complete Lasagna" width="200" height="200" >
-    <p><a  href="./recipes/lasagna/lasagna.html "> Lasagna</a></p>
-    </div></li><br>
+      <!-- register button will be done later with JS-->
+    <h1 class="header">Odin recipes <button class="regis" href="">register</button></h1> 
+<main class="page"> 
+
+    <div class="left_part">  
+<ul>
+    <li class="lasagnaWhole">
+          <img class="lasagna_img"  src="./recipes/lasagna/images.jpeg" alt="a complete Lasagna" >
+         <div class="lasagna"><a  href="./recipes/lasagna/lasagna.html "> Lasagna</a></div>
+   </li><br>
 
 
-  <li>  <div class = "box" > 
-        <img src="./recipes/Slow Cooker Broccoli Beef/beef.png" alt="Broccoli Beef" width="200px" height="180px">
-        <p><a href="./recipes/Slow Cooker Broccoli Beef/Scbf.html">Slow Cooker Broccoli Beef</a></p>
-    </div></li> <br>
+     <li class="beefWhole">  
+        <img class="beef_img" src="./recipes/Slow Cooker Broccoli Beef/beef.png" alt="Broccoli Beef" >
+        <div class="beef"><a href="./recipes/Slow Cooker Broccoli Beef/Scbf.html">Slow Cooker Broccoli Beef</a></div>
+     </li> <br>
 
     
 
-    <li><div class = "box">
-<img src="./recipes/Easy Chili/ez-chilli.jpg" alt="Easy Chili" width="200" height="180">
-<p><a href="./recipes/Easy Chili/easy-chilli.html">Easy Chili</a></p>
-    </div></li>
+    <li class="chiliWhole">
+        <img class="chili_img" src="./recipes/Easy Chili/ez-chili.jpg" alt="Easy Chili" >
+        <div class=" chili"><a href="./recipes/Easy Chili/easy-chilli.html">Easy Chili</a></div>
+    </li>
    
 
 
     </ul>
+    </div>
+
+    <aside class="right">
+        <h2> Live Contents</h2>
+        <p>Contens will be done later!!</p>
+    </aside>
+    </main>
 </body>
 </html>

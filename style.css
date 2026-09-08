@@ -1,0 +1,78 @@
+.header{
+    text-align: center;
+   
+   
+    display: flex;
+    padding: 30px;
+    margin: auto;
+    background-color: #E8F0E4;
+   font-family: Courier New;
+   color: #1A3320;
+    justify-content:space-between;
+
+  }
+
+.page{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  .left_part{
+    display: grid;
+    gap: 20px;
+}
+
+.right{
+    width: 300px;
+    flex-shrink: 0;
+background-color: #F3F4F6;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+ button{
+    
+    cursor: pointer;
+    font-size: 15px;
+     
+
+ }
+
+li{
+    width: 240px;
+     border:  2px dashed teal;
+     padding: 12px;
+     margin: 0 auto ;
+     display: block;
+      text-align: center;
+      list-style-type: none;
+    background-color:#FDF8F5;
+    
+}
+
+
+.lasagna{
+    padding: 20px;
+
+}
+img{
+    
+   width: 200px;
+    height: 300px;
+  
+    object-fit: cover;
+}
+a{
+     font-size: 20px;
+}
+
+.beef{
+    padding: 20px;
+}
+
+.chili{
+    padding:  20px;
+}
